@@ -1,4 +1,9 @@
 
+<script>
+  import Hero from "../components/Hero.svelte"
+</script>
+
+
 
 <style>
   h1{color: red;}
@@ -11,15 +16,18 @@
   }
   .main main{
     flex-grow: 1;
-    background-color: aqua;
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 </style>
+
+
 <div class="main">
   <header>Navbar</header>
   <main>
+    <Hero/>
     <div class="">hero</div>
     
 
